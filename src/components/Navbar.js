@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav'
 import FormControl from 'react-bootstrap/FormControl'
 import Button from 'react-bootstrap/Button'
 import Feed from './Feed';
-import { BsHouseDoor, BsMap } from 'react-icons/bs'
+import { BsHouseDoor, BsMap, BsSearch } from 'react-icons/bs'
 
 export default function NavbarComponent() {
     return (
@@ -18,16 +18,16 @@ export default function NavbarComponent() {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Form inline>
+                <Form inline className="Search">
+                    {/* <BsSearch className="Search" /> */}
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                     <Button variant="outline-success">Search</Button>
                 </Form>
                 <Nav className="ml-auto">
                     <div>
-
                         <Nav.Link href="/">
                             <div className="Nav-Button">
-                                <BsHouseDoor size="25" color="1c8d66"/>
+                                <BsHouseDoor size="35" color="1c8d66" />
                                 <p>Feed</p>
                             </div>
                         </Nav.Link>
@@ -35,7 +35,7 @@ export default function NavbarComponent() {
                     <div>
                         <Nav.Link href="/map">
                             <div className="Nav-Button">
-                                <BsMap size="25" color="1c8d66"/>
+                                <BsMap size="35" color="1c8d66" />
                                 <p>Map</p>
                             </div>
                         </Nav.Link>
