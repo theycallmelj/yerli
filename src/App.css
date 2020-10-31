@@ -38,11 +38,19 @@
 }
 
 .Nav-Button {
-  color: #1c8d66;
-  margin-bottom: -0.2cm;
+  margin-bottom: 0.1cm;
+  padding-top: 0.6cm;
+  margin-right: 0.5cm;
+}
+
+.Nav-Button-Text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Logo {
   font-family: 'Oleo Script Swash Caps', cursive;
   color: #30c591;
+  font-size: 2cm;
+  margin-bottom: -1cm;
+  margin-top: -0.6cm;
 }

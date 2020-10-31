@@ -10,9 +10,12 @@ import { BsHouseDoor, BsMap } from 'react-icons/bs'
 
 export default function NavbarComponent() {
     return (
-
         <Navbar fluid bg="light" expand="lg" fixed="top">
-            <Navbar.Brand className="Logo" href="/">the Yerli</Navbar.Brand>
+            <Navbar.Brand href="/">
+                <div className="Logo">
+                    <p>the Yerli</p>
+                </div>
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Form inline>
@@ -21,16 +24,21 @@ export default function NavbarComponent() {
                 </Form>
                 <Nav className="ml-auto">
                     <div>
-                        <div className="Nav-Button">
-                            <BsHouseDoor size="25" />
-                        </div>
-                        <Nav.Link href="/" >Feed</Nav.Link>
+
+                        <Nav.Link href="/">
+                            <div className="Nav-Button">
+                                <BsHouseDoor size="25" color="1c8d66"/>
+                                <p>Feed</p>
+                            </div>
+                        </Nav.Link>
                     </div>
                     <div>
-                        <div className="Nav-Button">
-                            <BsMap size="25" />
-                        </div>
-                        <Nav.Link href="/map">Map</Nav.Link>
+                        <Nav.Link href="/map">
+                            <div className="Nav-Button">
+                                <BsMap size="25" color="1c8d66"/>
+                                <p>Map</p>
+                            </div>
+                        </Nav.Link>
                     </div>
                 </Nav>
             </Navbar.Collapse>
