@@ -3,17 +3,28 @@ import logo from './logo.svg';
 import Feed from './components/Feed.js'
 import Navbar from './components/Navbar.js'
 import Socials from './components/Socials.js'
+import Map from './components/Map'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <header className="App-header">
-        <Feed/>
+        <Router>
+          <Switch>
+            <Route path="/" exact component={Feed} />
+            <Route path="/map" exact component={Map} />
+          </Switch>
+        </Router>
       </header>
-      <Socials/>
+      <Socials />
     </div>
   );
 }

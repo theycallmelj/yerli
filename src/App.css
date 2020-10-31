@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.Nav-Button {
+  color: #1c8d66;
+  margin-bottom: -0.2cm;
+}
+
+.Logo {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: #30c591;
+}
