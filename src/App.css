@@ -50,7 +50,8 @@
 .Logo {
   font-family: 'Oleo Script Swash Caps', cursive;
   color: #30c591;
-  font-size: 2cm;
-  margin-bottom: -1cm;
-  margin-top: -0.6cm;
+  font-size: 500%;
+  margin-bottom: -9%;
+  margin-top: -7%;
+  padding-left: 1%;
 }
