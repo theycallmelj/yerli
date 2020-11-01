@@ -2,10 +2,14 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 
 export default function BusinessCard({businessTitle, backgroundPicture}) {
+    const titleStyles = {
+      fontSize: "1.5rem",
+    }
+  
     return (
-      <Card bg={'dark'} style={{ width: '18rem', height: '10rem', margin: '0 2rem' }}>
+      <Card className="main-card" bg={'dark'} style={{backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('${backgroundPicture}')`}}>
         <Card.Body>
-          <Card.Title>{businessTitle}</Card.Title>
+          <Card.Title style={titleStyles} className="business-title">{businessTitle}</Card.Title>
         </Card.Body>
       </Card>
     )

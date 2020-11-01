@@ -3,6 +3,8 @@ import Slider from './Slider'
 
 export default function Feed(){
     return (
+        <>
         <Slider />
+        </>
     )
 }

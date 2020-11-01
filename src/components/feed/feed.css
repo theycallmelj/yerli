@@ -1,0 +1,31 @@
+/* CARD STYLES */
+.main-card {
+    width: 14rem;
+    height: 7rem;
+    margin: 0 0.5rem;
+    background-size: cover;
+}
+
+.business-title {
+    font-size: 1.5rem;
+}
+
+/* SLIDER STYLES */
+.nextSlide {
+    width: 2rem;
+    height: 2rem;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    border: .15rem solid #d1d1d1;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.nextSlide:hover {
+    background-color: #d1d1d1;
+}
+
+.slider-wrapper{
+    margin: 1rem 0 0 0;
+    display: flex
+}
