@@ -27,5 +27,18 @@
 
 .slider-wrapper{
     margin: 1rem 0 0 0;
-    display: flex
+    display: flex;
+}
+
+.titles {
+    text-align: left;
+}
+
+.titles h3, h5 {
+    margin-bottom: 0;
+    margin-left: .5rem;
+}
+
+.wrap {
+margin: .5rem 0;
 }
