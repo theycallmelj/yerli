@@ -20,7 +20,9 @@ export default function NavbarComponent() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Form inline className="Search">
                     {/* <BsSearch className="Search" /> */}
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+                    <div className="Search-Bar">
+                        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+                    </div>
                     <Button variant="outline-success">Search</Button>
                 </Form>
                 <Nav className="ml-auto">
