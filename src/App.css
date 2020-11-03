@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.Nav-Button {
+  margin-bottom: 0.1cm;
+  padding-top: 0.6cm;
+  margin-right: 70px;
+  
+}
+
+.Nav-Button-Text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Logo {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: #30c591;
+  font-size: 500%;
+  margin-bottom: -12%;
+  margin-top: -10%;
+  padding-left: 15%;
+}
+
+.Search {
+  padding-left: 10%;
+}
+
+.Search-Bar {
+  border-radius: 40px;
+  /* border-style: dotted; */
+}
