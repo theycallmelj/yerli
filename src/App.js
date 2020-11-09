@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import Feed from './components/feed/Feed.js'
 import Navbar from './components/Navbar.js'
 import Socials from './components/Socials.js'

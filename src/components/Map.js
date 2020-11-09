@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import { BsGeoAlt } from 'react-icons/bs'
 
@@ -21,7 +21,7 @@ export default function Map(){
     return (
         <div style={{ height: '100vh', width: '100%'}}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: '' }}
+          bootstrapURLKeys={{ key: 'AIzaSyB7S1CU11Fo7wlaCmEeTDoAVsh4CVKbREc' }}
           defaultCenter={defaultProps.center}
           defaultZoom={defaultProps.zoom}
         >
