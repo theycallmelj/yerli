@@ -10,6 +10,12 @@
     font-size: 1.5rem;
 }
 
+/* MODAL STYLES */
+.modal-card {
+    width: 35rem;
+    font-size: 0.8rem;
+}
+
 /* SLIDER STYLES */
 .nextSlide {
     width: 2rem;

@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
 import Slider from './Slider'
+import BusinessModal from '../BusinessModal'
 
 export default function Feed(){
     let [sliders, setSliders] = useState([
         {
-            title : "Chain Restaurants",
-            subtitle : "Big name restaurants in your area",
+            title : "Nearby",
+            subtitle : "Businesses near you",
             places : [
                 {
                     name: "Olive Garden",
@@ -26,8 +27,8 @@ export default function Feed(){
             ]
         },
         {
-            title : "Fast Food Restaurants",
-            subtitle : "Fast Food restaurants in your area",
+            title : "Female + Veteran",
+            subtitle : "Businesses owned by females, veterans, and racial minorities",
             places : [
                 {
                     name: "Wendy's",
@@ -60,6 +61,7 @@ export default function Feed(){
                 />
             ))
         }
+        <BusinessModal/>
         </>
     )
 }
